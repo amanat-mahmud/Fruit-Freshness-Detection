@@ -34,6 +34,7 @@ The model takes in 224×224 RGB images, applies standard normalization, and outp
 - Overall Accuracy 99.95%
 - Classification report
 ![report.png](training/report.png)
+
 - Confusion Matrix
 ![cm.png](training/cm.png)
 - ### Interpretation of High Accuracy & Overfitting Concern

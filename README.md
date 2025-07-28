@@ -33,10 +33,9 @@ The model takes in 224×224 RGB images, applies standard normalization, and outp
 ## 📊 Evaluation Metrics
 - Overall Accuracy 99.95%
 - Classification report
-![report.png](training/report.png)
-
+- ![report.png](training/report.png)
 - Confusion Matrix
-![cm.png](training/cm.png)
+- ![cm.png](training/cm.png)
 - ### Interpretation of High Accuracy & Overfitting Concern
     - Best-performing model is the ResNet50-based classifier, trained on a 75%/25% train/test split. During training, the held-out 25% test set was used as a validation set each epoch. Also leveraged Optuna to identify optimal hyper-parameters (learning rate, dropout rate). Despite the near-perfect 99.95% accuracy and perfect per-class scores, several factors confirm genuine generalization rather than overfitting -
         - **Consistent train/val trends:** Both training and validation loss decreased smoothly across 5 epochs, with validation accuracy rising in lockstep—no large divergence or sudden spikes.

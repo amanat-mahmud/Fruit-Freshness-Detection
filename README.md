@@ -1,8 +1,5 @@
 # 🍓 Fruit Freshness Detection
-
-**Imagine a scenario:**
-
-- A fruit supplier company need to supply fresh food to supermarkets and local farmers' markets, striving to deliver high-quality goods to their customers. They are facing  several operational issues due to  inconsistent manual quality inspections.So they plans to leverage AI to address this problem by automating the freshness 
+A fruit supplier company need to supply fresh food to supermarkets and local farmers' markets, striving to deliver high-quality goods to their customers. They are facing  several operational issues due to  inconsistent manual quality inspections.So they plans to leverage AI to address this problem by automating the freshness 
 inspection process.  
 They supply 8 kinds of fruits/vegetables: 
     - Banana 
